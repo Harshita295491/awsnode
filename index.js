@@ -28,6 +28,7 @@ let items=[
 
 app.get('/items', (req, res)=>{
     req.send(items);
+    console.log(items)
 
 });
  
