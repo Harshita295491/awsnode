@@ -45,7 +45,7 @@ app.get('/items', (req, res)=>{
 
 
 
-app.listen(3000, (err)=>{
+app.listen(3001, (err)=>{
     if(!err){
         console.log("server running on port 3000")
 
